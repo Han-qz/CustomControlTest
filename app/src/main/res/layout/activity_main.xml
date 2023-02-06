@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="自定义控件练习" />
+
+    <Button
+        android:id="@+id/to_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承已有控件"/>
+
+    <Button
+        android:id="@+id/to_m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承布局"/>
+
+    <Button
+        android:id="@+id/to_m3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承根View"/>
+
+    <Button
+        android:id="@+id/to_m4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例：滚动渐变顶部条"/>
+
+
+</LinearLayout>
